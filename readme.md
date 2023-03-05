@@ -3,7 +3,7 @@
 
 По мотивам [ChatGPT OpenAI в Telegram на Python / Пишем Telegram-бота ChatGPT на Питоне](https://www.youtube.com/watch?app=desktop&v=7X1zxEzQGGM).
 
-Серверная часть Telegram-бота, использующего OpenAI ChatGPT для генерации ответов на сообщения.
+Серверная часть Telegram-бота, использующего [OpenAI ChatGPT](https://chat.openai.com) для генерации ответов на сообщения.
 
 # Установка
 
@@ -14,7 +14,7 @@ pip install aiogram openai
 
 # Использование
 
-Чтобы запустить бота, необходимо получить токен для бота у [BotFather в Telegram](https://t.me/BotFather), а также API-ключ для OpenAI. Эти значения необходимо передать в качестве аргументов при запуске бота:
+Чтобы запустить бота, необходимо получить токен для бота у [BotFather в Telegram](https://t.me/BotFather), а также [API-ключ для OpenAI](https://platform.openai.com/account/api-keys). Эти значения необходимо передать в качестве аргументов при запуске бота:
 
 ```
 python main.py <telegram_bot_token> <openai_api_key>
